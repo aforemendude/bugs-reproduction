@@ -30,12 +30,14 @@ normal: [
   },
   {
     "count": 1,
+    "added": false,
     "removed": true,
     "value": "  \"normal\": \"old\"\n"
   },
   {
     "count": 1,
     "added": true,
+    "removed": false,
     "value": "  \"normal\": \"new\"\n"
   },
   {
@@ -45,6 +47,7 @@ normal: [
     "value": "}"
   }
 ]
+--------------------
 __proto__: [
   {
     "count": 1,

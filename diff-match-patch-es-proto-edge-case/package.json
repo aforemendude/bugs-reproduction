@@ -1,0 +1,11 @@
+{
+  "name": "diff-match-patch-es-proto-edge-case",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "diff-match-patch-es": "2.0.0"
+  }
+}

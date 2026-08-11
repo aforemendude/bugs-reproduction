@@ -9,7 +9,7 @@ npm install
 npm start
 ```
 
-Diffing two emoji with the default timeout returns unpaired UTF-16 surrogates.
+Diffing two emoji with the default options returns unpaired UTF-16 surrogates.
 The delta and patch serializers pass those surrogates to URI encoding, which
 throws `URIError: URI malformed`.
 

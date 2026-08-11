@@ -1,6 +1,6 @@
 # diff-match-patch-es surrogate-pair `URIError`
 
-Minimal reproduction for the latest `diff-match-patch-es` release.
+Minimal reproduction for `diff-match-patch-es` 2.0.1.
 
 Run:
 
@@ -9,9 +9,9 @@ npm install
 npm start
 ```
 
-Diffing two emoji with a zero-millisecond timeout returns unpaired UTF-16
-surrogates. The delta and patch serializers pass those surrogates to URI
-encoding, which throws `URIError: URI malformed`.
+Diffing two emoji with the default timeout returns unpaired UTF-16 surrogates.
+The delta and patch serializers pass those surrogates to URI encoding, which
+throws `URIError: URI malformed`.
 
 ## Output
 

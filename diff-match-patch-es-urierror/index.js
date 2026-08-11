@@ -3,7 +3,7 @@ import { diff, diffToDelta, patch, patchToText } from 'diff-match-patch-es'
 const oldText = '😀'
 const newText = '😃'
 
-const diffs = diff(oldText, newText, { diffTimeout: 0 })
+const diffs = diff(oldText, newText)
 console.log('diff:', JSON.stringify(diffs))
 
 for (const [label, reproduce] of [

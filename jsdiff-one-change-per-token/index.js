@@ -26,7 +26,6 @@ for (const [name, diffMethod, oldText, newText] of diffCases) {
   console.log(`${name} (${JSON.stringify(oldText)} -> ${JSON.stringify(newText)}):`)
 
   const renderedValues = changes.map(change => change.value).join('')
-  console.log('changes:', JSON.stringify(changes))
-  console.log('values:', JSON.stringify(renderedValues))
-  console.log('contains duplicated space:', renderedValues.includes('  '))
+  console.log('changes:', JSON.stringify(changes, null, 2))
+  console.log('------------------------------')
 }

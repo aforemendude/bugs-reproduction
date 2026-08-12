@@ -11,4 +11,6 @@ npm install
 npm run build
 ```
 
-The result is `dist/index.html`; it contains the `diff` package bundle and can be opened directly in a browser.
+The result is `dist/index.html`; it contains the `diff` package bundle and can be opened directly in a browser. The build also copies it to [`docs/jsdiff-json-key-order.html`](../docs/jsdiff-json-key-order.html) for GitHub Pages.
+
+Live demo: [jsdiff JSON key order](https://aforemendude.github.io/bugs-reproduction/jsdiff-json-key-order.html)

@@ -24,8 +24,6 @@ const diffCases = [
 for (const [name, diffMethod, oldText, newText] of diffCases) {
   const changes = diffMethod(oldText, newText, options)
   console.log(`${name} (${JSON.stringify(oldText)} -> ${JSON.stringify(newText)}):`)
-
-  const renderedValues = changes.map(change => change.value).join('')
   console.log('changes:', JSON.stringify(changes, null, 2))
   console.log('------------------------------')
 }

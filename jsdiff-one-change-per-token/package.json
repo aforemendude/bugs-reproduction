@@ -1,0 +1,11 @@
+{
+  "name": "jsdiff-one-change-per-token",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "diff": "9.0.0"
+  }
+}
